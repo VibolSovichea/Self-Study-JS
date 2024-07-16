@@ -15,7 +15,21 @@ let multiply = 3 * 4; // result will be 12
 let divide = 30 / 6; // result will be 5
 let modulus = 11 % 3; // 11 divided by 3 leaves a remainder of 2
 let power = 2 ** 3; // (2 raised to the power of 3 is 8)
+```
+There also additional operators including **Increment** and **Decrement** operators. These operator is quite special because the placement of the operators can give out different results.
 
+- When placing the operator **after** the variable while **executing it**, the value of the variable **doesn't change until after executed**.
+
+- But when placing the operator **before** the variable **while executing it**, the value **change before executed**.
+
+```
+let x = 10;
+console.log(x++); // 10
+console.log(++x); // 11
+
+let y = 20;
+console.log(y--); // 20
+console.log(--y); // 19
 ```
 
 ### > Assignment Operators <
@@ -52,7 +66,7 @@ let c = !true; // c will be false
 
 1. **Ternary Operator**
 
-     Is a conditional Operator use as an alternative to the If-Statement.
+Is a conditional Operator use as an alternative to the If-Statement.
 
 ```
 let check = 10 > 5 ? "10 is greater" : "5 is greater"; 
@@ -62,7 +76,8 @@ let check = 10 > 5 ? "10 is greater" : "5 is greater";
 
 2. **Unary Operator**
 
-     Use to perform on one operand.
+Use to perform on one operand.
+
 ```
 let yes = true;
 console.log(!yes); // false
@@ -76,5 +91,5 @@ console.log(+strNumber); // 420 as number
 
 **Note** : 
 >
-> There are more operators in JavaScript including Bitwise operator, Comma Operators,etc. I haven't list those in the lesson is because they aren't commonly used.
+> There are more operators in JavaScript including Bitwise operator, Comma Operators, etc. I haven't list those in the lesson is because they aren't commonly used.
 >
