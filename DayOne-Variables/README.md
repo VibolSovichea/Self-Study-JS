@@ -88,7 +88,7 @@ console.log(str); //false
 
 **Notes** : 
 >
->- Converting string to number using implicit method can be confusing, so ***it is not recommended***.
+>- Converting datatypes using implicit method can be confusing, so ***it is not recommended***.
 >
 
 #### **Explicit Type Conversion**
