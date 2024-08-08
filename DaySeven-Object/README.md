@@ -85,3 +85,17 @@ const objectOne = new TypeName(propertyOne, propertyTwo, propertyThree);
 const objectTwo = new TypeName(propertyOne, propertyTwo, propertyThree);
 const objectThree = new TypeName(propertyOne, propertyTwo, propertyThree);
 ```
+
+# Exercises
+### Managing a Library of Books
+**Objective** : Create and manipulate a collection of book objects to simulate a simple library system. You'll practice creating objects, accessing and modifying properties, using methods, and iterating over object properties.
+
+**Instructions** : 
+- Create Book Objects
+> Create a constructor function Book that initializes a book object with the following properties: title (string) , author (string) , year (number) , genre (string) , isAvailable (boolean, default value is true)
+- Add Methods
+> Add a method toggleAvailability to the Book prototype that changes the isAvailable property to its opposite value.
+
+- Create a Library Object
+
+> Create an object library with an empty array property books to store the book objects.
